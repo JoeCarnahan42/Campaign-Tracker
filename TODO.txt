@@ -1,0 +1,4 @@
+TODO:
+
+Make spell casters have a tab to view spells!
+
