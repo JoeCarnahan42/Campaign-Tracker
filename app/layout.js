@@ -16,7 +16,6 @@ export default function RootLayout({ children }) {
         <ViewProvider>
           <Header />
           <main className="flex-grow-1 container py-4">{children}</main>
-          <Footer />
         </ViewProvider>
       </body>
     </html>
