@@ -4,12 +4,9 @@ import { useState, useEffect } from "react";
 
 export default function Home() {
   const adventureBook = {
-    title: "Hoard of the Dragon Queen",
-    summary: `The cult of the dragon is amassing a mighty treasure hoard
-    in an attempt to raise Tiamat, the five-headed dragon goddess,
-    from the Nine Hells. Heroes must stop the cult's advance across
-    the Sword Coast and prevent the rise of Tiamat.`,
-    nextSession: new Date("2025-10-31T19:00:00"), // example date & time
+    title: "Rise of Tiamat",
+    summary: `The Cult of the Dragon leads the charge in an unholy crusade to bring Tiamat back to the Realms, and the situation grows more perilous for good people with each passing moment. The battle becomes increasingly political as opportunities to gather allies and gain advantage present themselves. From Waterdeep to the Sea of Moving Ice to Thay, it is a race against Evil. Succeed or succumb to the oppression of draconic tyranny. Win or lose, things will never be the same again.`,
+    nextSession: new Date("2026-5-31T19:00:00"), // example date & time
   };
 
   const [timeLeft, setTimeLeft] = useState(getTimeRemaining());
@@ -50,7 +47,7 @@ export default function Home() {
         {/* Cover Art */}
         <div className="flex-shrink-0">
           <Image
-            src="/Hoard-of-the-Dragon-Queen.jpg"
+            src="/Rise-of_Tiamat.jpg"
             alt={`${adventureBook.title} Cover`}
             width={350}
             height={190}
